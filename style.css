@@ -1,0 +1,179 @@
+/*
+Theme Name:		 chicdressing
+Theme URI:		 http://childtheme-generator.com/
+Description:	 chicdressing is a child theme of Ashe, created by ChildTheme-Generator.com
+Author:			 Chic Dressing
+Author URI:		 http://childtheme-generator.com/
+Template:		 ashe
+Version:		 1.0.0
+Text Domain:	 chicdressing
+*/
+
+/*
+    Add your custom styles here
+*/
+
+@font-face {
+    font-family: 'Kalam', cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url("family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rokkitt', serif;
+    src: url("family=Rokkitt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
+    font-display: swap;
+}
+
+/* application des polices */
+body {
+    font-family: 'Kalam', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rokkitt', serif;
+}
+
+body .page-content,
+.page-content select,
+.page-content input,
+.page-content textarea,
+.page-content .post-author a,
+.page-content .ashe-widget a,
+.page-content .comment-author {
+    color: #a5a5a5;
+    font-size: 12px;
+}
+
+body .header-logo a {
+    color: white;
+    text-shadow: 2px 3px 5px #d0527a;
+    transform: rotate(-9deg);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.chic-bouton {
+    color: #ffffff;
+    background-color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 14px;
+}
+
+#featured-slider {
+    margin-bottom: 30px;
+}
+
+#chic-products {
+    padding: 0 40px;
+}
+
+/*3 titres de la page d'acceuil*/
+.chic-title {
+    font-family: 'Kalam', cursive;
+    font-size: 32px;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    transform: rotate(-2deg);
+    margin: 30px 40px;
+    text-align: center;
+    color: #7F3D51 !important;
+    line-height: 48px;
+}
+
+#chic-products ul.products li.product {
+    background: #f6f6f6;
+    padding-bottom: 20px;
+}
+
+/*CHIC DRESSING TITLE*/
+body .header-logo a {
+    font-size: 60px;
+    word-spacing: 15px;
+}
+
+/*MENU NAVIGATION*/
+#main-menu li a:hover {
+    color: #5E431C;
+    font-size: 16px;
+}
+
+#main-nav li.current-menu-item>a {
+    color: #5E431C !important;
+}
+
+/*BOUTON AJOUTER AU PANIER*/
+.page-content .woocommerce ul.products li.product .button {
+    color: #654A20 !important;
+    font: size 16px;
+}
+
+.page-content .woocommerce ul.products li.product .button {
+    font-size: 18px;
+}
+
+/*sous-Titre FASHION, LIFESTYLE, NATURE*/
+.post-categories a {
+    color: #654820 !important;
+    font-size: 16px;
+}
+
+/*BOUTON LIRE LA SUITE*/
+.read-more a {
+    color: #654A20 !important;
+    font-size: 16px;
+}
+
+/*DATE SOUS LES TITRES H2*/
+.page-content .post-date {
+    color: #654A20 !important;
+    font-size: 18px;
+}
+
+/*LES PARAGRAPHES*/
+.post-content>p {
+    color: #4A4A4A !important;
+    font-size: 15px;
+}
+
+/*LES PARAGRAPHES DU TITRE A DROITE PUBLICATIONS RECENTES*/
+.rpwwt-post-categories {
+    color: #4A4A4A !important;
+    font-size: 14px;
+}
+
+/* MENU A DROITE NEWSLETTER*/
+/*mail*/
+.wysija-paragraph {
+    color: #000000;
+}
+
+/*etoile après mail*/
+.widget_wysija .wysija-required {
+    color: #000000;
+}
+
+/* PARAGRAPHE du blog & Boutique d’une fashionista / Menu à droite*/
+.ashe-widget p {
+    font-size: 13px;
+    color: #4A4A4A !important;
+}
